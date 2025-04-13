@@ -1,0 +1,5 @@
+# comentario # cin
+contador 26 { ]
+'a' ;
+
+
