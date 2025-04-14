@@ -52,6 +52,7 @@ public static final int COD_VOID = 32;
 public static final int COD_NEW_LINE = 33;
 public static final int COD_ERROR = 34;
 public static final int COD_LITERAL = 35;
+public static final int COD_COMENTARIO = 36;
 
 
 
@@ -104,7 +105,7 @@ literal='[^']*'
   
 {eb} 	{/*ninguna accion y no retornar*/}
 
-{comentario} {}
+{comentario} {return (new Yytoken(COD_COMENTARIO,yytext()));}
 
 {literal} {return (new Yytoken(COD_LITERAL,yytext()));}
 

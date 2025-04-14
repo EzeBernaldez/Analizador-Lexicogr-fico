@@ -1,4 +1,4 @@
-# comentario # cin
+# comentario con muchas cosas ???¡¡¡12324 # cin
 contador 26 { ]
 'a' ;
 

@@ -340,6 +340,7 @@ public static final int COD_VOID = 32;
 public static final int COD_NEW_LINE = 33;
 public static final int COD_ERROR = 34;
 public static final int COD_LITERAL = 35;
+public static final int COD_COMENTARIO = 36;
 
 
 
@@ -878,7 +879,7 @@ class Yytoken {
           // fall through
           case 56: break;
           case 20:
-            { 
+            { return (new Yytoken(COD_COMENTARIO,yytext()));
             }
           // fall through
           case 57: break;

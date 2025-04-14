@@ -41,6 +41,9 @@ public class Ejemplo extends JFrame {
                         if(palabras[1].equals("35")){
                             agregarTexto(doc,palabras[2] + " ",Color.CYAN);
                         }
+                        if(palabras[1].equals("36")){
+                            agregarTexto(doc, palabras[2] + " ", Color.GREEN);
+                        }
                     }
             } catch (IOException e) {
                 e.printStackTrace();

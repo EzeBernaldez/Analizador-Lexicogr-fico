@@ -878,7 +878,7 @@ class Yytoken {
           // fall through
           case 56: break;
           case 20:
-            { return yytext();
+            { 
             }
           // fall through
           case 57: break;
